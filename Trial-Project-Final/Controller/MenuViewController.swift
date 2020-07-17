@@ -17,10 +17,12 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         updateUI()
-        slideMenu.commonInit()
         LeadingConstraint.constant = -350
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        if let slide = SlideMenu.loadViewFromNib() {
+            slide.frame = slideMenu.bounds
+            self.slideMenu.addSubview(slide)
+        }
     }
     
     @IBAction func openMenu(_ sender: UIBarButtonItem) {

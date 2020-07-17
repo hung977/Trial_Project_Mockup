@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SlideMenu" customModule="Trial_Project_Final"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SlideMenu" customModule="Trial_Project_Final" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="318" height="665"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SlideMenu" customModule="Trial_Project_Final">
+            <rect key="frame" x="0.0" y="0.0" width="288" height="596"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sale_management_icon" translatesAutoresizingMaskIntoConstraints="NO" id="g7P-Nk-Vke">
@@ -28,48 +28,55 @@
                     </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Azc-QI-nE5">
-                    <rect key="frame" x="66" y="152" width="232" height="30"/>
+                    <rect key="frame" x="66" y="152" width="202" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="gEb-fa-Boy"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                     <state key="normal" title="Employee management">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIF-fz-f9m">
-                    <rect key="frame" x="66" y="210" width="232" height="30"/>
+                    <rect key="frame" x="66" y="210" width="202" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="Xld-nK-vXf"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                     <state key="normal" title="Sale management">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product_management_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Ilw-wB-Sbp">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product_management_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Ilw-wB-Sbp">
                     <rect key="frame" x="8" y="84" width="50" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="4nv-mF-j53"/>
                         <constraint firstAttribute="width" constant="50" id="dB2-Yc-a5B"/>
                     </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umz-w5-QUb">
-                    <rect key="frame" x="66" y="94" width="232" height="30"/>
+                <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umz-w5-QUb">
+                    <rect key="frame" x="66" y="94" width="202" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="ibr-qA-Ir0"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                     <state key="normal" title="Product management">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logout_icon" translatesAutoresizingMaskIntoConstraints="NO" id="mtO-1y-2ab">
+                    <rect key="frame" x="8" y="546" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="c4P-PF-X1g"/>
+                        <constraint firstAttribute="height" constant="50" id="wWl-lu-95U"/>
+                    </constraints>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wj3-qh-3Pl">
-                    <rect key="frame" x="66" y="268" width="232" height="30"/>
+                    <rect key="frame" x="66" y="268" width="202" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="Wtm-F1-bth"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                     <state key="normal" title="Report">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -81,6 +88,16 @@
                         <constraint firstAttribute="width" constant="50" id="lFB-l0-kGw"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcD-16-RjP">
+                    <rect key="frame" x="66" y="556" width="202" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="9Ie-yp-DGy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                    <state key="normal" title="Log Out">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
@@ -90,10 +107,14 @@
                 <constraint firstItem="wj3-qh-3Pl" firstAttribute="leading" secondItem="Tuq-kC-qYD" secondAttribute="trailing" constant="8" id="2rn-Ib-THR"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="umz-w5-QUb" secondAttribute="trailing" constant="20" id="4yW-sG-1jO"/>
                 <constraint firstItem="Azc-QI-nE5" firstAttribute="leading" secondItem="egZ-8O-9Sg" secondAttribute="trailing" constant="8" id="7WE-uX-7bc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RcD-16-RjP" secondAttribute="trailing" constant="20" id="BRy-k3-oXN"/>
                 <constraint firstItem="Azc-QI-nE5" firstAttribute="leading" secondItem="egZ-8O-9Sg" secondAttribute="trailing" constant="8" id="E5I-58-l82"/>
                 <constraint firstItem="umz-w5-QUb" firstAttribute="leading" secondItem="Ilw-wB-Sbp" secondAttribute="trailing" constant="8" id="FkI-Mo-DW5"/>
                 <constraint firstItem="wj3-qh-3Pl" firstAttribute="leading" secondItem="Tuq-kC-qYD" secondAttribute="trailing" constant="8" id="FvT-Dq-Bwn"/>
+                <constraint firstItem="RcD-16-RjP" firstAttribute="leading" secondItem="mtO-1y-2ab" secondAttribute="trailing" constant="8" id="Ju2-92-qWr"/>
                 <constraint firstItem="KIF-fz-f9m" firstAttribute="leading" secondItem="g7P-Nk-Vke" secondAttribute="trailing" constant="8" id="NZD-6T-pwP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="RcD-16-RjP" secondAttribute="bottom" constant="10" id="Nn8-7j-zn8"/>
+                <constraint firstItem="RcD-16-RjP" firstAttribute="leading" secondItem="mtO-1y-2ab" secondAttribute="trailing" constant="8" id="UfK-O5-apf"/>
                 <constraint firstItem="umz-w5-QUb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="50" id="XD8-Lx-Z22"/>
                 <constraint firstItem="egZ-8O-9Sg" firstAttribute="top" secondItem="Ilw-wB-Sbp" secondAttribute="bottom" constant="8" id="bWS-Iu-2zH"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="KIF-fz-f9m" secondAttribute="trailing" constant="20" id="bbU-Gx-24O"/>
@@ -106,16 +127,19 @@
                 <constraint firstItem="KIF-fz-f9m" firstAttribute="top" secondItem="Azc-QI-nE5" secondAttribute="bottom" constant="28" id="nfp-A8-rUG"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Azc-QI-nE5" secondAttribute="trailing" constant="20" id="rTx-Np-kw0"/>
                 <constraint firstItem="egZ-8O-9Sg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="t2T-iR-WFe"/>
+                <constraint firstItem="mtO-1y-2ab" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="wbD-gu-9Ox"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="mtO-1y-2ab" secondAttribute="bottom" id="wgt-GX-GCp"/>
                 <constraint firstItem="wj3-qh-3Pl" firstAttribute="top" secondItem="KIF-fz-f9m" secondAttribute="bottom" constant="28" id="whZ-gW-g55"/>
                 <constraint firstItem="Tuq-kC-qYD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="yWu-5t-efS"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="-252.17391304347828" y="87.388392857142847"/>
+            <point key="canvasLocation" x="-394.20289855072468" y="20.758928571428569"/>
         </view>
     </objects>
     <resources>
         <image name="employee_management_icon" width="128" height="128"/>
+        <image name="logout_icon" width="128" height="128"/>
         <image name="product_management_icon" width="128" height="128"/>
         <image name="report_icon" width="128" height="128"/>
         <image name="sale_management_icon" width="128" height="128"/>

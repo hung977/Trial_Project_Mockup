@@ -10,6 +10,9 @@
 		363F58D44FC5EA04E1FEFE9A /* Pods_Trial_Project_Final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC55880311E2AAF78B930B00 /* Pods_Trial_Project_Final.framework */; };
 		BAD59B2624C18F850057F8F8 /* SlideMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD59B2524C18F850057F8F8 /* SlideMenu.xib */; };
 		BAD59B2824C18F970057F8F8 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD59B2724C18F970057F8F8 /* SlideMenu.swift */; };
+		BAD59B2E24C1AAB30057F8F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD59B2D24C1AAB30057F8F8 /* LoginViewController.swift */; };
+		BAD59B3224C1B60A0057F8F8 /* ProductManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD59B3024C1B60A0057F8F8 /* ProductManagementViewController.swift */; };
+		BAD59B3324C1B60A0057F8F8 /* ProductManagementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD59B3124C1B60A0057F8F8 /* ProductManagementViewController.xib */; };
 		BAD6931224C16408000F8432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6931124C16408000F8432 /* AppDelegate.swift */; };
 		BAD6931424C16408000F8432 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6931324C16408000F8432 /* SceneDelegate.swift */; };
 		BAD6931624C16408000F8432 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6931524C16408000F8432 /* MenuViewController.swift */; };
@@ -23,6 +26,9 @@
 		8F30463340FA3B5BD75B2C5E /* Pods-Trial-Project-Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trial-Project-Final.debug.xcconfig"; path = "Target Support Files/Pods-Trial-Project-Final/Pods-Trial-Project-Final.debug.xcconfig"; sourceTree = "<group>"; };
 		BAD59B2524C18F850057F8F8 /* SlideMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideMenu.xib; sourceTree = "<group>"; };
 		BAD59B2724C18F970057F8F8 /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		BAD59B2D24C1AAB30057F8F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BAD59B3024C1B60A0057F8F8 /* ProductManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManagementViewController.swift; sourceTree = "<group>"; };
+		BAD59B3124C1B60A0057F8F8 /* ProductManagementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductManagementViewController.xib; sourceTree = "<group>"; };
 		BAD6930E24C16408000F8432 /* Trial-Project-Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trial-Project-Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD6931124C16408000F8432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAD6931324C16408000F8432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +78,34 @@
 			path = "Slide Menu";
 			sourceTree = "<group>";
 		};
+		BAD59B2924C19CB50057F8F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAD59B2424C18F680057F8F8 /* Slide Menu */,
+				BAD6931724C16408000F8432 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAD59B2A24C19CDB0057F8F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAD59B2F24C1B5EE0057F8F8 /* Product */,
+				BAD6931524C16408000F8432 /* MenuViewController.swift */,
+				BAD59B2D24C1AAB30057F8F8 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAD59B2F24C1B5EE0057F8F8 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				BAD59B3024C1B60A0057F8F8 /* ProductManagementViewController.swift */,
+				BAD59B3124C1B60A0057F8F8 /* ProductManagementViewController.xib */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 		BAD6930524C16408000F8432 = {
 			isa = PBXGroup;
 			children = (
@@ -93,11 +127,10 @@
 		BAD6931024C16408000F8432 /* Trial-Project-Final */ = {
 			isa = PBXGroup;
 			children = (
-				BAD59B2424C18F680057F8F8 /* Slide Menu */,
 				BAD6931124C16408000F8432 /* AppDelegate.swift */,
 				BAD6931324C16408000F8432 /* SceneDelegate.swift */,
-				BAD6931524C16408000F8432 /* MenuViewController.swift */,
-				BAD6931724C16408000F8432 /* Main.storyboard */,
+				BAD59B2924C19CB50057F8F8 /* View */,
+				BAD59B2A24C19CDB0057F8F8 /* Controller */,
 				BAD6931A24C1640A000F8432 /* Assets.xcassets */,
 				BAD6931C24C1640A000F8432 /* LaunchScreen.storyboard */,
 				BAD6931F24C1640A000F8432 /* Info.plist */,
@@ -167,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAD59B2624C18F850057F8F8 /* SlideMenu.xib in Resources */,
+				BAD59B3324C1B60A0057F8F8 /* ProductManagementViewController.xib in Resources */,
 				BAD6931E24C1640A000F8432 /* LaunchScreen.storyboard in Resources */,
 				BAD6931B24C1640A000F8432 /* Assets.xcassets in Resources */,
 				BAD6931924C16408000F8432 /* Main.storyboard in Resources */,
@@ -223,8 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAD59B2824C18F970057F8F8 /* SlideMenu.swift in Sources */,
+				BAD59B3224C1B60A0057F8F8 /* ProductManagementViewController.swift in Sources */,
 				BAD6931624C16408000F8432 /* MenuViewController.swift in Sources */,
 				BAD6931224C16408000F8432 /* AppDelegate.swift in Sources */,
+				BAD59B2E24C1AAB30057F8F8 /* LoginViewController.swift in Sources */,
 				BAD6931424C16408000F8432 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

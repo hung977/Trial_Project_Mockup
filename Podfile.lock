@@ -1,0 +1,16 @@
+PODS:
+  - SideMenu (5.0.1)
+
+DEPENDENCIES:
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - SideMenu
+
+SPEC CHECKSUMS:
+  SideMenu: 87efd943737bb83aedf0358884d09fcf5576636d
+
+PODFILE CHECKSUM: 6cce57b49b070ec4906dd1136b306715d0ea587d
+
+COCOAPODS: 1.9.3
